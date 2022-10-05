@@ -23,5 +23,7 @@ const frase =
 `
 ${nomeutente}, ${cognomeutente}, <span style="color:${colore}">il tuo colore preferito  &egrave; ${colore}</span> e hai ${eta} anni
 `;
+const password = `la tua password sar&agrave;: ${nomeutente}${cognomeutente}${colore}${eta}`;
 const inserire = document.getElementById('dati').innerHTML = frase;
+const creare = document.getElementById('pass').innerHTML = password;
 console.log(inserire)
